@@ -52,6 +52,7 @@
 6. El kibibyte es una potencia de 2 del byte
 
     **[X]** Verdadero
+    
     [] Falso
 
 7. Con 6 bits, indicar cuántas cifras decimales podrán representarse
@@ -445,30 +446,14 @@
 
 4. Completar las afirmaciones correctamente respecto de la Memoria Principal:
 
-    La adaptación de niveles de señal entre los buses y la matriz de celdas de memoria se realiza a través de:
-
-    Answer 1
-    Los transductores
-     Correct
-    El acceso a cada una de las celdas de la matriz de memoria se hace a través de: 
-
-    Answer 2
-    El decodificador
-     Correct
-    Las señales de lectura/escritura y el reloj (CLK), entre otras, las utilizan:
-
-    Answer 3
-    La lógica de control
-     Correct
-    Los bits de datos propiamente dichos se almacenarán en :
-
-    Answer 4
-    La matriz de celdas de memoria
-     Correct
-    Feedback
-    Respuesta correcta
-    The correct answer is: La adaptación de niveles de señal entre los buses y la matriz de celdas de memoria se realiza a través de: → Los transductores, El acceso a cada una de las celdas de la matriz de memoria se hace a través de:  → El decodificador, Las señales de lectura/escritura y el reloj (CLK), entre otras, las utilizan: → La lógica de control, Los bits de datos propiamente dichos se almacenarán en : → La matriz de celdas de memoria
-
+    La adaptación de niveles de señal entre los buses y la matriz de celdas de memoria se realiza a través de: **[Los transductores]**
+    
+    El acceso a cada una de las celdas de la matriz de memoria se hace a través de: **[El decodificador]**
+    
+    Las señales de lectura/escritura y el reloj (CLK), entre otras, las utilizan: **[La lógica de control]**
+    
+    Los bits de datos propiamente dichos se almacenarán en : **[La matriz de celdas de memoria]**
+    
 5. Indicar todas las afirmaciones correctas respecto de las memorias SRAM (RAM estáticas)
 
     [] Se utilizan en la memoria principal de los ordenadores.
@@ -487,72 +472,29 @@
 
 6. Completar cada una de las afirmaciones:
 
-    La memorias dinámicas para la memoria principal más avanzadas que en la actualidad se utilizan en nuestros ordenadores personales son las memorias: 
-
-    Answer 1
-    GDDR5
-     Incorrect
-    Las primeras memorias dinámicas que pueden operarse mediante ráfagas de lectura y escritura son las memorias:
-
-    Answer 2
-    SDRAM
-     Correct
-    Las celdas de memoria de 1 bit construidas con transistores Fet o MosFET son:
-
-    Answer 3
-    SRAM
-     Incorrect
-    Feedback
-    Respuesta parcialmente correcta.
-    You have correctly selected 1.
-    The correct answer is: La memorias dinámicas para la memoria principal más avanzadas que en la actualidad se utilizan en nuestros ordenadores personales son las memorias:  → DDR, Las primeras memorias dinámicas que pueden operarse mediante ráfagas de lectura y escritura son las memorias: → SDRAM, Las celdas de memoria de 1 bit construidas con transistores Fet o MosFET son: → DRAM
+    La memorias dinámicas para la memoria principal más avanzadas que en la actualidad se utilizan en nuestros ordenadores personales son las memorias: **[DDR]**
+    
+    Las primeras memorias dinámicas que pueden operarse mediante ráfagas de lectura y escritura son las memorias: **[SDRAM]**
+    
+    Las celdas de memoria de 1 bit construidas con transistores Fet o MosFET son: **[DRAM]**
 
 7. Indicar para cada afirmación a qué tiempo corresponde:
 
-    Desde que se realiza un pedido de lectura hasta que el mismo queda satisfecho.
+    Desde que se realiza un pedido de lectura hasta que el mismo queda satisfecho. **[Access Time]**
+    
+    Tiempo que tarda la memoria en colocarse sobre una fila de un tablero. **[RAS]**
+    
+    Desde que se realiza un pedido hasta que se puede realizar el siguiente: **[Cycle Time]**
+    
+    Tiempo que tarda la memoria en desactivar un tablero: **[Precharge]**
+    
+    Tiempo que tarda la memoria en activar un tablero: **[Active]**
+    
+    Tiempo posterior a la escritura en memoria en donde el dato y la dirección deben estar presentes: **[Hold Time]**
 
-    Answer 1
-    CAS
-     Incorrect
-    Tiempo que tarda la memoria en colocarse sobre una fila de un tablero
-
-    Answer 2
-    Precharge
-     Incorrect
-    Desde que se realiza un pedido hasta que se puede realizar el siguiente
-
-    Answer 3
-    RAS
-     Incorrect
-    Tiempo que tarda la memoria en desactivar un tablero
-
-    Answer 4
-    Cycle Time
-     Incorrect
-    Tiempo que tarda la memoria en activar un tablero
-
-    Answer 5
-    Active
-     Correct
-    Tiempo posterior a la escritura en memoria en donde el dato y la dirección deben estar presentes
-
-    Answer 6
-    Access Time
-     Incorrect
-    Tiempo que tarda la memoria en colocarse sobre una columna de un tablero
-
-    Answer 7
-    Setup Time
-     Incorrect
-    Tiempo previo a la escritura en memoria en donde el dato y la dirección deben estar presentes antes que llegue la señal de escritura
-
-    Answer 8
-    Hold Time
-     Incorrect
-    Feedback
-    Respuesta parcialmente correcta.
-    You have correctly selected 1.
-    The correct answer is: Desde que se realiza un pedido de lectura hasta que el mismo queda satisfecho. → Access Time, Tiempo que tarda la memoria en colocarse sobre una fila de un tablero → RAS, Desde que se realiza un pedido hasta que se puede realizar el siguiente → Cycle Time, Tiempo que tarda la memoria en desactivar un tablero → Precharge, Tiempo que tarda la memoria en activar un tablero → Active, Tiempo posterior a la escritura en memoria en donde el dato y la dirección deben estar presentes → Hold Time, Tiempo que tarda la memoria en colocarse sobre una columna de un tablero → CAS, Tiempo previo a la escritura en memoria en donde el dato y la dirección deben estar presentes antes que llegue la señal de escritura → Setup Time
+    Tiempo que tarda la memoria en colocarse sobre una columna de un tablero: **[CAS]**
+    
+    Tiempo previo a la escritura en memoria en donde el dato y la dirección deben estar presentes antes que llegue la señal de escritura: **[Setup Time]**
 
 8. Nuestro procesador de estudio utiliza el siguiente ordenamiento de bytes:
 
@@ -590,3 +532,464 @@
     
     [] 24.
     
+## Parcialito 5
+
+1. Marcar las memorias especiales vistas:
+
+    [] EDRAM
+    
+    [] DDR6
+    
+    **[X]** MRAM
+    
+    **[X]** XDR
+    
+    [] TDR
+
+2. Indicar qué tipo de memoria aplica para cada caso:
+
+    Construidas sencillamente con capacitores. Alta densidad de integración. Necesitan refresco. **[Dinámicas]**
+    
+    Construidas con flip-flops, y éstos con transistores. No necesita refresco. Consumen más energía. Más veloces. **[Estáticas]**
+    
+3. ¿Cuál es la memoria más rápida?
+
+    [] DDR4
+    
+    [] DDR2
+    
+    [] DD3
+    
+    **[X]** DDR5 (próximamente)
+    
+    [] DDR6
+
+4. Marcar las características de las memorias EEPROM:
+
+    [] Se borra mediante luz ultravioleta.
+    
+    [] Se programa una sola vez.
+    
+    [] El fabricante coloca un diodo en cada celda de memoria, junto con un fusible en serie. De esta manera, en todas las celdas hay guardado un “cero”.
+    
+    [] Se graban los datos durante el proceso de fabricación y no se puede alterar.
+    
+    [] Se coloca un diodo en donde se quieren guardar “ceros”.
+    
+    **[X]** Se borran de a celda por celda con una tensión eléctrica de polarización invertida.
+    
+    **[X]** Las programa el usuario en forma eléctrica sin quemar un fusible.
+    
+    [] En donde se necesita guardar un “uno”, hay que quemar el fusible. Esto se realiza mediante un programa externo.
+
+5. Indicar qué tipo de memoria se aplica a cada dispositivo
+
+    Cintas magnéticas **[Secuencial]**
+    
+    Discos duros (HDD) **[Semi-aleatoria]**
+
+    DDR **[Acceso aleatorio]**
+
+6. Marcar las características de las memorias PROM:
+
+    [] Se borran de a celda por celda con una tensión eléctrica de polarización invertida.
+    
+    **[X]** En donde se necesita guardar un “uno”, hay que quemar el fusible. Esto se realiza mediante un programa externo.
+    
+    [] Se borra mediante luz ultravioleta.
+    
+    [] Se graban los datos durante el proceso de fabricación y no se puede alterar.
+    
+    **[X]** El fabricante coloca un diodo en cada celda de memoria, junto con un fusible en serie. De esta manera, en todas las celdas hay guardado un “cero”.
+    
+    **[X]** Se programa una sola vez.
+    
+    [] Se coloca un diodo en donde se quieren guardar “ceros”.
+    
+    [] Las programa el usuario en forma eléctrica sin quemar un fusible.
+    
+7. Marcar las características de las memorias FLASH:
+
+    **[X]** Son memorias del tipo EEPROM.
+    
+    [] Son volátiles.
+    
+    **[X]** Son de bajo consumo.
+    
+    **[X]** Utilizadas para fabricar PenDrives.
+    
+    **[X]** Se pueden escribir y borrar varias celdas simultáneamente.
+    
+    [] Son memorias del tipo EPROM.
+    
+    [] Utilizadas para fabricar los discos rígidos (HDD).
+
+8. Marcar las características de las memorias EPROM:
+
+    **[X]** Las programa el usuario en forma eléctrica sin quemas un fusible.
+    
+    [] En donde se necesita guardar un “uno”, hay que quemar el fusible. Esto se realiza mediante un programa externo.
+    
+    **[X]** Se borra mediante luz ultravioleta.
+    
+    [] Se graban los datos durante el proceso de fabricación y no se puede alterar.
+    
+    [] El fabricante coloca un diodo en cada celda de memoria, junto con un fusible en serie. De esta manera, en todas las celdas hay guardado un “cero”.
+    
+    [] Se programa una sola vez.
+    
+    [] Se coloca un diodo en donde se quieren guardar “ceros”.
+    
+9. Marcar las características de las memorias ROM:
+
+    [] El fabricante coloca un diodo en cada celda de memoria, junto con un fusible en serie. De esta manera, en todas las celdas hay guardado un “cero”.
+    
+    [] Se borran de a celda por celda con una tensión eléctrica de polarización invertida.
+    
+    **[X]** Se graban los datos durante el proceso de fabricación y no se puede alterar.
+    
+    [] Se borra mediante luz ultravioleta.
+    
+    [] En donde se necesita guardar un “uno”, hay que quemar el fusible. Esto se realiza mediante un programa externo.
+    
+    [] Las programa el usuario en forma eléctrica.
+    
+    **[X]** Se coloca un diodo en donde se quieren guardar “ceros”.
+    
+    [] Se programa una sola vez.
+       
+10. Las memorias RAM son de acceso aleatorio, es decir, tardan un tiempo aleatorio distinto para acceder a cualquier posición de la memoria independiente del lugar en donde se encuentre.
+
+    [] Verdadero
+    
+    **[X]** Falso
+
+## Parcialito 6
+
+1. Elija las opciones correctas para cada afirmación:
+
+    La escritura a memoria (write-through) **[Actualiza la MP al mismo tiempo que la Caché]**
+
+    El retrograbado (write-back) **[Utiliza el bit de validez (dirty bit) para actualizar la MP]**
+    
+2. ¿Cuál es la afirmación correcta?
+
+    **[X]** La memoria virtual se divide en segmentos de tamaños diferentes. Estos se dividen en páginas de igual tamaño. Cada página se mueve a la memoria física y se la divide en bloques de longitud fija. Cada bloque se mueve a la memoria caché.
+    
+    [] La memoria caché se divide en bloques de tamaños diferentes. Estos se dividen en páginas de tamaño diferente también. Cada página se mueve a la memoria virtual y se la divide en segmentos de longitud fija. Cada segmento se mueve a la memoria física.
+    
+    [] La memoria física se divide en segmentos de tamaños diferentes. Estos se dividen en bloques de igual tamaño. Cada bloque se mueve a la memoria virtual y se los divide en segmentos de longitud fija. Cada segmento se mueve a la memoria caché.
+    
+    [] La memoria virtual se divide en páginas de tamaños fijo. Estas se dividen en segmentos de igual tamaño. Cada segmento se mueve a la memoria caché y se la divide en bloques de longitud variable. Cada página se mueve a la memoria física.
+
+3. Acomode los textos sobre la imagen
+
+    Background image for dragging markers onto
+    
+    CPU-Core
+
+    ↕ 
+
+    Caché L1 Data ↔ Caché L1 Code
+
+    ↕ 
+
+    Caché L2
+
+    ↕ 
+
+    Puente norte ↔ Memoria principal
+
+    ↕ 
+
+    Caché L3
+
+4. Indicar las afirmaciones correctas:
+
+    **[X]** La organización asociativa de Caché indica que cualquier bloque puede acomodarse en cualquier renglón de Caché.
+    
+    **[X]** En Caché, el offset puede variar entre 0 y la la longitud del bloque menos 1.
+    
+    **[X]** La cantidad de bloques en la Memoria Principal es su capacidad dividido "b", la longitud del bloque.
+    
+    [] Las tablas de la memoria Caché pueden tener cualquier cantidad de renglones, de manera indistinta.
+    
+    [] En la organización asociativa de Caché, la etiqueta resuelva el problema del bloque presente en el renglón de Caché.
+    
+    **[X]** En la organización de Mapeo Directo no se necesita buscar el número de bloque en todos los renglones de la memoria Caché.
+    
+    [] La Memoria Principal se divide en bloques de cualquier longitud "b".
+    
+    **[X]** Para mejorar la performance de las memorias Caché organizadas de manera Asociativa se les puede adicionar una memoria asociativa para persistir las últimas traducciones realizadas.
+
+5. Indicar qué métodos se pueden utilizar para reemplazar bloques de la memoria caché 
+
+    [] MRU (Mas recientemente usado).
+    
+    [] LILO (Último que entra primero que sale).
+    
+    **[X]** FIFO (primero que entra primero que sale). Correct
+    
+    [] ALI (Siempre el último ingresado).
+    
+    [] FIXED (Siempre el mismo renglón).
+    
+    **[X]** LRU (Menos recientemente usado). Correct
+    
+    **[X]** RANDOM (aleatorio).
+    
+6. Se tienen los siguientes datos para un ordenador con memoria caché Asociativa:
+    Dirección de MP solicitada por la CPU = CC9h
+    Cada posición de MP = 8 bits = 1 byte
+    B = 64 palabras
+    QR = 16 renglones
+
+    Indicar las afirmaciones correctas:
+    
+    [] #bloque = 59
+    Offset = 1
+    MP = 2048 posiciones Incorrect
+    
+    [] #bloque = 51
+    Offset = 9
+    MP = 2048 posiciones
+    
+    **[X]** #bloque = 51
+    Offset = 9
+    MP = 4096 posiciones
+    
+    [] #bloque = 59
+    Offset = 1
+    MP = 4096 posiciones
+    
+7. Se tienen los siguientes datos para un ordenador con memoria caché de Mapeo Directo:
+    Dirección de MP solicitada por la CPU = 047Fh
+    Palabra de la memoria principal = 4 nibbles
+    Bloque = 256 palabras
+    Cantidad de renglones = 32 renglones
+
+    Seleccionar las respuestas correctas:
+
+    **[X]** El bus de address es de 16 bits.
+    
+    **[X]** El address solicitado estará en el renglón 4.
+    
+    [] La memoria caché es de 256 Kbytes.
+    
+    [] El offset es 8.
+    
+    **[X]** La MP es de 128K bytes.
+    
+    **[X]** El offset es 127.
+    
+    [] El bus de address es de 20 bits.
+    
+    **[X]** La memoria caché es de 16 Kbytes.
+    
+    [] El address solicitado estará en el renglón 0.
+    
+    [] La MP es de 32K bytes
+    
+8. La TLB es una memoria direccionable que almacena las últimas p traducciones
+
+    [] Verdadero.
+    
+    **[X]** Falso.
+
+9. Completar con las opciones correctas para un sistema con memoria Caché y Virtual:
+
+    Si se busca un bloque en la memoria chaché y si se encuentra, estamos en presencia de un **[Hit]**
+    
+    Si se busca una página en la memoria principal y no se encuentra, estamos en presencia de un **[Page fault]**
+
+    Si se busca un bloque en la memoria chaché y no se encuentra, estamos en presencia de un **[Miss]**
+
+    Si se busca una página en la memoria principal y si se encuentra, estamos en presencia de un **[Page hit]**
+
+10. El propósito de incorporar la memoria caché es incrementar la performance del sistema CPU <--> Entrada / Salida. Es una pequeña porción de memoria de alta velocidad.
+
+    [] Verdadero.
+    
+    **[X]** Falso.
+
+## Parcialito 7
+
+1. Marcar la afirmación correcta:
+
+    **[X]** Los programas en assembler están compuestos por instrucciones y cada una de ellas se corresponden a un microprograma que a su vez está compuesto por microinstrucciones.
+    
+    [] Los programas en assembler están compuestos por microinstrucciones y cada una de ellas se corresponden a un microprograma que a su vez está compuesto por instrucciones.
+    
+    [] Los microprogramas en assembler están compuestos por instrucciones y cada una de ellas se corresponde con un programa que a su vez está compuesto por microinstrucciones.
+    
+    [] Los programas en assembler están compuestos por instrucciones y cada una de ellas se corresponde a una microinstrucción que a su vez está compuesta por microprogramas.
+
+2. Marcar la afirmación correcta para el secuenciamiento implícito de microinstrucciones en la Memoria de Control:
+
+    [] Las microinstrucciones se encentran en cualquier dirección en la Memoria de Control.
+    
+    [] Existe una microinstrucción específica para indicar que no hay próxima microinstrucción a ejecutar.
+    
+    **[X]** Las microinstrucciones se encuentran ordenadas secuencialmente.
+    
+    **[X]** La última microinstrucción posee un bit indicando el fin del microprograma.
+    
+    [] La microinstrucción en curso posee la ubicación de la próxima microinstrucción.
+
+3. Indicar las unidades estructurales de la Unidad de Control
+
+    [] Control de multiplexores e interconexión
+    
+    **[X]** Memoria de Control Correct
+    
+    **[X]** Unidad de control de registros y decodificadores Correct
+    
+    [] Memoria Principal.
+    
+    [] Lógica combinacional.
+    
+    **[X]** Lógica secuencial.
+    
+    [] Registros.
+    
+    [] Bus interno.
+
+4. Es el conjunto de instrucciones disponible para el programador. Son códigos binarios que tienen una asociación a un lenguaje de alto nivel denominado assembler (o ensamblador):
+
+    [] Verdadero.
+    
+    **[X]** Falso.
+    
+5. Indicar la afirmación correcta:
+
+    **[X]** Las instrucciones comienzan con un código denominado Operación o Código de operación.
+    
+    **[X]** La longitud de las instrucciones de nuestro procesador de estudio es variable.
+    
+    [] Las instrucciones comienzan con una combinación de objetos o parámetros y finalizan con un código llamado Operación o Código de Operación.
+    
+    [] Todas las instrucciones ocupan la misma cantidad de bytes en nuestro procesador de estudio.
+
+## Parcialito 8
+
+1. Identificar la solución para cada problema de los pipelines:
+
+    Los problemas de datos se resuelven con: **[Forwarding]**
+    
+    Los problemas de control se resuelven con: **[Predictor de saltos]**
+    
+    Los problemas de estructura se resuelven con: **[La incorporación de unidades adicionales]**
+    
+2. Seleccionar la afirmación correcta:
+
+    **[X]** En la segmentación de instrucciones, cada etapa de la cadena está especializada en una tarea específica y lleva a cabo siempre la misma actividad.
+    
+    [] En la segmentación de actividades, cada instrucción de la cadena es específica y lleva a cabo siempre la misma tarea dentro de la actividad.
+    
+    [] En la segmentación de instrucciones, cada segmento de la instrucción es específico y está encadenado con la misma actividad.
+    
+3. La profundidad de un pipeline depende ...
+
+    [] De la organización del caché L1, si es un solo espacio o dos espacios, uno para datos y otro para instrucciones.
+    
+    [] De la cantidad de núcleos que posea el procesador.
+    
+    [] De la necesidad de buscar los operandos o no en la tercera etapa.
+    
+    **[X]** La cantidad de etapas o segmentos de la unidad de ejecución de instrucciones.
+    
+    [] De la cantidad de instrucciones del SET
+
+4. Marcar las afirmaciones correctas respecto de los procesadores RISC
+
+    [] Cada instrucción se ejecuta en varios ciclos de máquina.
+    
+    **[X]** Tiene un único formato de instrucción.
+    
+    **[X]** Se basan en el modelo de Harvard.
+    
+    [] Tiene control microprogramado.
+    
+    [] Posee mucha cantidad de modos de direccionamiento.
+    
+    **[X]** Posee pocas instrucciones en lenguaje de máquina.
+    
+    **[X]** Sus registros son de propósito general.
+    
+    [] LOAD y STORE son las instrucciones para ejecutar los cálculos.
+
+5. Armar el ciclo de instrucción de nuestro procesador visto:
+
+    Etapa 1 --> **[Instruction Fetch]**
+
+    Etapa 2 --> **[Instruction Decode]**
+
+    Etapa 3 --> **[Operand Fetch]**
+
+    Etapa 4 --> **[Execution]**
+
+6. Los problemas en los pipelines identificados como RAW, WAR y WAW podemos englobarlos en problemas de.... 
+
+    [] Estructura.
+
+    [] Superposición.
+
+    **[X]** Datos.
+
+    [] Salto.
+
+    [] Control.
+
+7. Las tablas de reservas se utilizan para:
+
+    [] Para predecir el vaciamiento del pipeline en el caso de la predicción no se cumpla.
+    
+    **[X]** Identificar la ocupación del pipeline de instrucciones y permitir su paralelización.
+
+    [] Ninguna de las afirmaciones es la correcta.
+    
+    [] Para evitar los problemas de datos en los pipelines y de estructura.
+
+8. Estas instrucciones, ¿qué problema de datos tienen?
+
+    i1.R2 = R1 + R3
+
+    i2.R3 = R4 + R7
+
+    [] RAW.
+    
+    [] WAW.
+    
+    **[X]** WAR.
+    
+    [] RAR.
+
+9. Nuestro procesador de estudio se basa en la arquitectura:
+
+    [] PIC.
+    
+    [] RISC.
+    
+    [] LOAD-STORE.
+    
+    [] Harvard.
+    
+    [] MIPS.
+    
+    **[X]** CISC.
+    
+    [] MISD.
+
+10. Si decimos que un predictor de saltos basará su comportamiento en la historia pasada de ejecución, diremos que es un predictor:
+
+    [] Next line.
+    
+    [] Local.
+    
+    [] Bimodal.
+    
+    [] Estático.
+    
+    [] Combinado.
+    
+    **[X]** Dinámico.
