@@ -13,7 +13,7 @@
 
 [] 2 elevada a la posición.
 
-[X] Base elevada a la posición.
+**[X]** Base elevada a la posición.
 
 [] 10 elevada a la posición.
 
@@ -23,7 +23,7 @@
 
 [] Su entrada puede estar en alta impedancia.
 
-[X] Su salida puede estar en alta impedancia.
+**[X]** Su salida puede estar en alta impedancia.
 
 [] Sus entradas están conectadas a masma (potencial de referencia).
 
@@ -35,19 +35,19 @@
 
 [] 000.
 
-[X] 100.
+**[X]** 100.
 
-[X] 001.
+**[X]** 001.
 
 [] 101.
 
-[X] 010.
+**[X]** 010.
 
 [] 110.
 
 [] 011.
 
-[X] 111.
+**[X]** 111.
 
 4) Si poseemos un dispositivo que a su entrada le entregamos un código binario de n bits y en sus 2 a la n salidas obtenemos un "1" en una sola de ellas correspondiente al valor decimal del binario ingresado, el dispositivo es un...
 
@@ -55,7 +55,7 @@
 
 [] Conversor de código.
 
-[X] Decodificador.
+**[X]** Decodificador.
 
 [] Demultiplexor.
 
@@ -65,7 +65,7 @@
 
 5) La estructura de un ordenador es:
 
-[X] Buses, E/S, Memoria Principal, CPU.
+**[X]** Buses, E/S, Memoria Principal, CPU.
 
 [] CPU, E/S, Buses, Memoria de Control.
 
@@ -85,7 +85,7 @@
 
 [] SIMD
 
-[X] SISD
+**[X]** SISD
 
 7) Si digo que una estructura tiene Memoria de control, lógica secuencial y unidad de control de registros y decodificadores, me refiero a:
 
@@ -101,7 +101,7 @@
 
 [] La memoria ROM.
 
-[X] La Unidad de control.
+**[X]** La Unidad de control.
 
 [] La memoria Caché.
 
@@ -111,15 +111,15 @@
 
 [] Signo y magnitud.
 
-[X] Complemento a 2.
+**[X]** Complemento a 2.
 
 [] Exceso 2 a la (n-1).
 
 9) ¿Qué sistema de representación numérica binaria con signo posee el siguiente rango de representación?: {-( 2^(n-1) ) ; +( 2^(n-1) -1) }
 
-[X] Complemento a 2.
+**[X]** Complemento a 2.
 
-[X] Exceso 2 a la (n-1).
+**[X]** Exceso 2 a la (n-1).
 
 [] Signo y magnitud.
 
@@ -131,7 +131,7 @@
 
 [] CF = con signo, SF = sin signo.
 
-[X] CF = sin signo, OF = con signo.
+**[X]** CF = sin signo, OF = con signo.
 
 [] CF = sin signo, SF = con signo.
 
@@ -141,9 +141,9 @@
 
 [] 111 + 000
 
-[X] 100 + 100
+**[X]** 100 + 100
 
-[X] 010 + 010
+**[X]** 010 + 010
 
 [] 111 + 110
 
@@ -153,7 +153,7 @@
 
 [] 0, 1/2, 1/4, 1/8, 1/16, ...
 
-[X] 1/2, 1/4, 1/8, 1/16, ...
+**[X]** 1/2, 1/4, 1/8, 1/16, ...
 
 [] 0, -1, -2, -4, -8, -16, ...
 
@@ -165,7 +165,7 @@
 
 [] No redondeamos y truncamos.
 
-[X] Redondeamos y truncamos.
+**[X]** Redondeamos y truncamos.
 
 [] No truncamos.
 
@@ -181,13 +181,13 @@
 
 [] Q y CLR.
 
-[X] D y CLK.
+**[X]** D y CLK.
 
 15) ¿Qué tiempo característico de una memoria indica el que se tarda desde que se realiza un pedido de lectura hasta que el mismo queda satisfecho?
 
 [] Cycle Time (Tiempo de ciclo).
 
-[X] Access Time (Tiempo de acceso).
+**[X]** Access Time (Tiempo de acceso).
 
 [] Write Time (Tiempo de escritura).
 
@@ -201,7 +201,7 @@
 
 [] DRAM.
 
-[X] SRAM.
+**[X]** SRAM.
 
 [] SDRAM.
 
@@ -219,7 +219,7 @@
 
 [] SRAM.
 
-[X] DDR.
+**[X]** DDR.
 
 18) Si decimos que cualquier bloque de la memoria principal puede alojarse en un único renglón de la memoria caché, diremos que su organización es:
 
@@ -229,7 +229,7 @@
 
 [] Asociativa.
 
-[X] Mapeo Directo.
+**[X]** Mapeo Directo.
 
 19) ¿En qué organización de memoria caché podremos valernos de la ayuda de una memoria asociativa?
 
@@ -237,7 +237,7 @@
 
 [] Conjuntos Directos.
 
-[X] Asociativa.
+**[X]** Asociativa.
 
 [] Mapeo Directo.
 
@@ -245,7 +245,7 @@
 
 [] La memoria virtual.
 
-[X] La memoria principal.
+**[X]** La memoria principal.
 
 [] La memoria caché.
 
@@ -253,7 +253,7 @@
 
 21) La estructura de las instrucciones de los procesadores se caracteriza por comenzar con un:
 
-[X] Código de operación u operación.
+**[X]** Código de operación u operación.
 
 [] Un objeto o dato.
 
@@ -265,7 +265,7 @@
 
 [] Habitual.
 
-[X] Indirección.
+**[X]** Indirección.
 
 [] Salto.
 
@@ -273,7 +273,7 @@
 
 23) El ciclo de instrucción de nuestro procesador será el siguiente, teniendo en cuenta que la instrucción a ejecutar tiene operandos:
 
-[X] Instruction Fetch > Instruction Decode > Operand Fetch > Execution.
+**[X]** Instruction Fetch > Instruction Decode > Operand Fetch > Execution.
 
 [] Instruction Decode > Operand Fetch > Instruction Fetch > Execution.
 
@@ -283,7 +283,7 @@
 
 24) Los problemas de los Pipelines son los siguientes:
 
-[X] De datos, control y estructura.
+**[X]** De datos, control y estructura.
 
 [] De datos, RAW, WAW y WAR.
 
@@ -295,7 +295,7 @@
 
 [] CISC.
 
-[X] RISC.
+**[X]** RISC.
 
 [] SISD.
 
